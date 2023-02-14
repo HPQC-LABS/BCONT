@@ -180,7 +180,7 @@ Obsolescent: bcont.f, line 8057: 30 is a shared DO termination label
 Obsolescent: bcont.f, line 8063: DO 32 ends neither with CONTINUE nor ENDDO
 Obsolescent: bcont.f, line 8066: DO 34 ends neither with CONTINUE nor ENDDO
 Obsolescent: bcont.f, line 8090: DO 40 ends neither with CONTINUE nor ENDDO
-Error: bcont.f, line 8215: Argument X is REAL (should be DOUBLE PRECISION) in reference to the intrinsic DSQRT
-[NAG Fortran Compiler error termination, 1 error, 139 warnings]
-<builtin>: recipe for target 'bcont.o' failed
-make: *** [bcont.o] Error 2
+[NAG Fortran Compiler normal termination, 139 warnings]
+nagfor -O2              bcont.o -o bcont.x
+NAG Fortran Compiler Release 7.1(Hanzomon) Build 7114
+Evaluation trial version of NAG Fortran Compiler Release 7.1(Hanzomon) Build 7114

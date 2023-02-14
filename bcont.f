@@ -3545,7 +3545,7 @@ cc            WRITE(6,600)
               NJ1 = NJ - 1
               DO  M=1,NJ1
                   A2 = A1
-                  A1 = DSQRT(DLOG(ZN/DFLOAT(NJ-M)))
+                  A1 = DSQRT(DLOG(ZN/DBLE(NJ-M)))
                   E2 = E1
                   E1 = DERF(A1)
                   FJ2(M) = -(NJ-M)*A1+(NJ-M+1)*A2
@@ -7957,7 +7957,7 @@ c [Approximate expression for (NDATA-NPARM).GT.10 accurate to ca. 0.002]
       TFACT= 0.D0
       IF(NDATA.GT.NPARM) THEN
           IDF= NDATA-NPARM
-          IF(IDF.GT.10) TFACT= 1.960D0*DEXP(1.265D0/DFLOAT(IDF))
+          IF(IDF.GT.10) TFACT= 1.960D0*DEXP(1.265D0/DBLE(IDF))
           IF(IDF.LE.10) TFACT= F95(IDF)
         ELSE
           TFACT= 0.D0
@@ -8083,7 +8083,7 @@ c  Parameter Sensitivities PS
 c** Use DSE to get final (95% confid. limit) parameter uncertainties PU
 c** Calculate 'parameter sensitivities', changes in PV(j) which would
 c  change predictions of input data by an RMS average of  DSE*0.1/NPARM
-          UU= DSE*0.1d0/DFLOAT(NPARM)
+          UU= DSE*0.1d0/DBLE(NPARM)
           S= DSE*TFACT
           DO 40 J = 1,NPARM
               PU(J)= S* PU(J)
@@ -8212,7 +8212,7 @@ c** If no parameters varied or sequential rounding completed - simply
 c   calculate DSE from RMS residuals and return.
    60 DSE= 0.d0
       IF(NDATA.GT.NPTOT) THEN
-          DSE= RMSR*DSQRT(DFLOAT(NDATA)/DFLOAT(NDATA-NPTOT))
+          DSE= RMSR*DSQRT(DBLE(NDATA)/DBLE(NDATA-NPTOT))
         ELSE
           DSE= 0.d0
         ENDIF
