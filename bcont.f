@@ -7,7 +7,9 @@ ccc   INCLUDE 'arrsizes.h'
 c-----------------------------------------------------------------------
 c  Utility routine to summarize dimensioning of arrays
 c-----------------------------------------------------------------------
-      INTEGER mxdata,mxisp,mxfsp,mxnj,mxnp,mxntp,mxprm,mxv,mxfs,mxisot,
+c     INTEGER mxdata,mxisp,mxfsp,mxnj,mxnp,mxntp,mxprm,mxv,mxfs,mxisot,
+c    1        mxsets,mxfreq
+      INTEGER mxdata,mxisp,mxfsp,mxnj,mxnp,mxprm,mxv,mxfs,mxisot,
      1        mxsets,mxfreq
       REAL*8 CCM,PI
 c-----------------------------------------------------------------------
@@ -16,8 +18,8 @@ c  mxisp  - maximum number of points for initial state potential array
 c           (also used for number of points in transition moment array)
 c  mxnj    - maxiumum value of j quantum number allowed
 c  mxfsp  - maximum number of points for final state potential array
-c  mxnp   - maximum number of parameters total
-c  mxntp  - maximum number of turning points to be read in
+c  mxnp   - maximum number of parameters total 
+c  mxntp  - maximum number of turning points to be read in (unused!)
 c  mxprm  - maximum number of parameters for final state pot'l or TMF
 c  mxv    - largest value for the v quantum number
 c  mxfs   - maximum number of final states allowed
@@ -28,7 +30,7 @@ c-----------------------------------------------------------------------
       PARAMETER (mxisp=16001)
       PARAMETER (mxnj=20)
       PARAMETER (mxfsp=16001)
-      PARAMETER (mxntp=9999)
+!     PARAMETER (mxntp=9999)
       PARAMETER (mxprm=6)
       PARAMETER (mxv=200)
       PARAMETER (mxfs=5)
@@ -1355,7 +1357,9 @@ ccc   INCLUDE 'arrsizes.h'
 c-----------------------------------------------------------------------
 c  Utility routine to summarize dimensioning of arrays
 c-----------------------------------------------------------------------
-      INTEGER mxdata,mxisp,mxfsp,mxnj,mxnp,mxntp,mxprm,mxv,mxfs,mxisot,
+c     INTEGER mxdata,mxisp,mxfsp,mxnj,mxnp,mxntp,mxprm,mxv,mxfs,mxisot,
+c    1        mxsets,mxfreq
+      INTEGER mxdata,mxisp,mxfsp,mxnj,mxnp,,mxprm,mxv,mxfs,mxisot,
      1        mxsets,mxfreq
       REAL*8 CCM,PI
 c-----------------------------------------------------------------------
@@ -1365,7 +1369,7 @@ c           (also used for number of points in transition moment array)
 c  mxnj    - maxiumum value of j quantum number allowed
 c  mxfsp  - maximum number of points for final state potential array
 c  mxnp   - maximum number of parameters total
-c  mxntp  - maximum number of turning points to be read in
+c  mxntp  - maximum number of turning points to be read in (unused!)
 c  mxprm  - maximum number of parameters for final state pot'l or TMF
 c  mxv    - largest value for the v quantum number
 c  mxfs   - maximum number of final states allowed
@@ -1376,7 +1380,7 @@ c-----------------------------------------------------------------------
       PARAMETER (mxisp=16001)
       PARAMETER (mxnj=20)
       PARAMETER (mxfsp=16001)
-      PARAMETER (mxntp=9999)
+c     PARAMETER (mxntp=9999)
       PARAMETER (mxprm=6)
       PARAMETER (mxv=200)
       PARAMETER (mxfs=5)
@@ -1956,7 +1960,9 @@ ccc   INCLUDE 'arrsizes.h'
 c-----------------------------------------------------------------------
 c  Utility routine to summarize dimensioning of arrays
 c-----------------------------------------------------------------------
-      INTEGER mxdata,mxisp,mxfsp,mxnj,mxnp,mxntp,mxprm,mxv,mxfs,mxisot,
+c     INTEGER mxdata,mxisp,mxfsp,mxnj,mxnp,mxntp,mxprm,mxv,mxfs,mxisot,
+c    1        mxsets,mxfreq
+      INTEGER mxdata,mxisp,mxfsp,mxnj,mxnp,mxprm,mxv,mxfs,mxisot,
      1        mxsets,mxfreq
       REAL*8 CCM,PI
 c-----------------------------------------------------------------------
@@ -1966,7 +1972,7 @@ c           (also used for number of points in transition moment array)
 c  mxnj    - maxiumum value of j quantum number allowed
 c  mxfsp  - maximum number of points for final state potential array
 c  mxnp   - maximum number of parameters total
-c  mxntp  - maximum number of turning points to be read in
+c  mxntp  - maximum number of turning points to be read in (unused!)
 c  mxprm  - maximum number of parameters for final state pot'l or TMF
 c  mxv    - largest value for the v quantum number
 c  mxfs   - maximum number of final states allowed
@@ -1977,7 +1983,7 @@ c-----------------------------------------------------------------------
       PARAMETER (mxisp=16001)
       PARAMETER (mxnj=20)
       PARAMETER (mxfsp=16001)
-      PARAMETER (mxntp=9999)
+c     PARAMETER (mxntp=9999)
       PARAMETER (mxprm=6)
       PARAMETER (mxv=200)
       PARAMETER (mxfs=5)
@@ -2061,7 +2067,9 @@ ccc   INCLUDE 'arrsizes.h'
 c-----------------------------------------------------------------------
 c  Utility routine to summarize dimensioning of arrays
 c-----------------------------------------------------------------------
-      INTEGER mxdata,mxisp,mxfsp,mxnj,mxnp,mxntp,mxprm,mxv,mxfs,mxisot,
+c     INTEGER mxdata,mxisp,mxfsp,mxnj,mxnp,mxntp,mxprm,mxv,mxfs,mxisot,
+c    1        mxsets,mxfreq
+      INTEGER mxdata,mxisp,mxfsp,mxnj,mxnp,mxprm,mxv,mxfs,mxisot,
      1        mxsets,mxfreq
       REAL*8 CCM,PI
 c-----------------------------------------------------------------------
@@ -2071,7 +2079,7 @@ c           (also used for number of points in transition moment array)
 c  mxnj    - maxiumum value of j quantum number allowed
 c  mxfsp  - maximum number of points for final state potential array
 c  mxnp   - maximum number of parameters total
-c  mxntp  - maximum number of turning points to be read in
+c  mxntp  - maximum number of turning points to be read in (unused!)
 c  mxprm  - maximum number of parameters for final state pot'l or TMF
 c  mxv    - largest value for the v quantum number
 c  mxfs   - maximum number of final states allowed
@@ -2082,7 +2090,7 @@ c-----------------------------------------------------------------------
       PARAMETER (mxisp=16001)
       PARAMETER (mxnj=20)
       PARAMETER (mxfsp=16001)
-      PARAMETER (mxntp=9999)
+c     PARAMETER (mxntp=9999)
       PARAMETER (mxprm=6)
       PARAMETER (mxv=200)
       PARAMETER (mxfs=5)
@@ -2247,7 +2255,9 @@ ccc   INCLUDE 'arrsizes.h'
 c-----------------------------------------------------------------------
 c  Utility routine to summarize dimensioning of arrays
 c-----------------------------------------------------------------------
-      INTEGER mxdata,mxisp,mxfsp,mxnj,mxnp,mxntp,mxprm,mxv,mxfs,mxisot,
+c     INTEGER mxdata,mxisp,mxfsp,mxnj,mxnp,mxntp,mxprm,mxv,mxfs,mxisot,
+c    1        mxsets,mxfreq
+      INTEGER mxdata,mxisp,mxfsp,mxnj,mxnp,mxprm,mxv,mxfs,mxisot,
      1        mxsets,mxfreq
       REAL*8 CCM,PI
 c-----------------------------------------------------------------------
@@ -2257,7 +2267,7 @@ c           (also used for number of points in transition moment array)
 c  mxnj    - maxiumum value of j quantum number allowed
 c  mxfsp  - maximum number of points for final state potential array
 c  mxnp   - maximum number of parameters total
-c  mxntp  - maximum number of turning points to be read in
+c  mxntp  - maximum number of turning points to be read in (unused!)
 c  mxprm  - maximum number of parameters for final state pot'l or TMF
 c  mxv    - largest value for the v quantum number
 c  mxfs   - maximum number of final states allowed
@@ -2268,7 +2278,7 @@ c-----------------------------------------------------------------------
       PARAMETER (mxisp=16001)
       PARAMETER (mxnj=20)
       PARAMETER (mxfsp=16001)
-      PARAMETER (mxntp=9999)
+c     PARAMETER (mxntp=9999)
       PARAMETER (mxprm=6)
       PARAMETER (mxv=200)
       PARAMETER (mxfs=5)
@@ -2281,9 +2291,12 @@ c-----------------------------------------------------------------------
       PARAMETER (CCM= 299792458d2)
       INTEGER I,ifs,IP,IR2TMF,J,LNPT,LPTMF,ILRTMF,m,NCNTMF,NIN,NPRS,
      1    NPRF,NPTMF,NUSETMF,NROW,  GFS(mxfs),OTMF(mxfs),TMFTYP(mxfs)
+c     REAL*8 CNNTMF,FCT(mxisp),MFACTMF,RAD(mxfsp),REXTMF,RFACTMF,
+c    1       TMF(mxfsp),TMFLIM,TMFPRM(0:mxprm-1,mxfs),Xi(mxntp),xtmf,
+c    2       XM2(mxfsp),Yi(mxntp),ztmf(mxisp,mxfs)
       REAL*8 CNNTMF,FCT(mxisp),MFACTMF,RAD(mxfsp),REXTMF,RFACTMF,
-     1       TMF(mxfsp),TMFLIM,TMFPRM(0:mxprm-1,mxfs),Xi(mxntp),xtmf,
-     2       XM2(mxfsp),Yi(mxntp),ztmf(mxisp,mxfs)
+     1       TMF(mxfsp),TMFLIM,TMFPRM(0:mxprm-1,mxfs),xtmf,
+     2       XM2(mxfsp),ztmf(mxisp,mxfs)
 c-----------------------------------------------------------------------
       COMMON /MGt/ REXTMF
       COMMON /MFGt/ XM2,ztmf,LPTMF,NIN,TMFTYP
@@ -2418,7 +2431,9 @@ ccc   INCLUDE 'arrsizes.h'
 c-----------------------------------------------------------------------
 c  Utility routine to summarize dimensioning of arrays
 c-----------------------------------------------------------------------
-      INTEGER mxdata,mxisp,mxfsp,mxnj,mxnp,mxntp,mxprm,mxv,mxfs,mxisot,
+c     INTEGER mxdata,mxisp,mxfsp,mxnj,mxnp,mxntp,mxprm,mxv,mxfs,mxisot,
+c    1        mxsets,mxfreq
+      INTEGER mxdata,mxisp,mxfsp,mxnj,mxnp,mxprm,mxv,mxfs,mxisot,
      1        mxsets,mxfreq
       REAL*8 CCM,PI
 c-----------------------------------------------------------------------
@@ -2428,7 +2443,7 @@ c           (also used for number of points in transition moment array)
 c  mxnj    - maxiumum value of j quantum number allowed
 c  mxfsp  - maximum number of points for final state potential array
 c  mxnp   - maximum number of parameters total
-c  mxntp  - maximum number of turning points to be read in
+c  mxntp  - maximum number of turning points to be read in (unused!)
 c  mxprm  - maximum number of parameters for final state pot'l or TMF
 c  mxv    - largest value for the v quantum number
 c  mxfs   - maximum number of final states allowed
@@ -2439,7 +2454,7 @@ c-----------------------------------------------------------------------
       PARAMETER (mxisp=16001)
       PARAMETER (mxnj=20)
       PARAMETER (mxfsp=16001)
-      PARAMETER (mxntp=9999)
+c     PARAMETER (mxntp=9999)
       PARAMETER (mxprm=6)
       PARAMETER (mxv=200)
       PARAMETER (mxfs=5)
@@ -2645,7 +2660,9 @@ ccc   INCLUDE 'arrsizes.h'
 c-----------------------------------------------------------------------
 c  Utility routine to summarize dimensioning of arrays
 c-----------------------------------------------------------------------
-      INTEGER mxdata,mxisp,mxfsp,mxnj,mxnp,mxntp,mxprm,mxv,mxfs,mxisot,
+c     INTEGER mxdata,mxisp,mxfsp,mxnj,mxnp,mxntp,mxprm,mxv,mxfs,mxisot,
+c    1        mxsets,mxfreq
+      INTEGER mxdata,mxisp,mxfsp,mxnj,mxnp,mxprm,mxv,mxfs,mxisot,
      1        mxsets,mxfreq
       REAL*8 CCM,PI
 c-----------------------------------------------------------------------
@@ -2655,7 +2672,7 @@ c           (also used for number of points in transition moment array)
 c  mxnj    - maxiumum value of j quantum number allowed
 c  mxfsp  - maximum number of points for final state potential array
 c  mxnp   - maximum number of parameters total
-c  mxntp  - maximum number of turning points to be read in
+c  mxntp  - maximum number of turning points to be read in (unused!)
 c  mxprm  - maximum number of parameters for final state pot'l or TMF
 c  mxv    - largest value for the v quantum number
 c  mxfs   - maximum number of final states allowed
@@ -2666,7 +2683,7 @@ c-----------------------------------------------------------------------
       PARAMETER (mxisp=16001)
       PARAMETER (mxnj=20)
       PARAMETER (mxfsp=16001)
-      PARAMETER (mxntp=9999)
+c     PARAMETER (mxntp=9999)
       PARAMETER (mxprm=6)
       PARAMETER (mxv=200)
       PARAMETER (mxfs=5)
@@ -2958,7 +2975,9 @@ ccc   INCLUDE 'arrsizes.h'
 c-----------------------------------------------------------------------
 c  Utility routine to summarize dimensioning of arrays
 c-----------------------------------------------------------------------
-      INTEGER mxdata,mxisp,mxfsp,mxnj,mxnp,mxntp,mxprm,mxv,mxfs,mxisot,
+c     INTEGER mxdata,mxisp,mxfsp,mxnj,mxnp,mxntp,mxprm,mxv,mxfs,mxisot,
+c    1        mxsets,mxfreq
+      INTEGER mxdata,mxisp,mxfsp,mxnj,mxnp,mxprm,mxv,mxfs,mxisot,
      1        mxsets,mxfreq
       REAL*8 CCM,PI
 c-----------------------------------------------------------------------
@@ -2968,7 +2987,7 @@ c           (also used for number of points in transition moment array)
 c  mxnj    - maxiumum value of j quantum number allowed
 c  mxfsp  - maximum number of points for final state potential array
 c  mxnp   - maximum number of parameters total
-c  mxntp  - maximum number of turning points to be read in
+c  mxntp  - maximum number of turning points to be read in (unused!)
 c  mxprm  - maximum number of parameters for final state pot'l or TMF
 c  mxv    - largest value for the v quantum number
 c  mxfs   - maximum number of final states allowed
@@ -2979,7 +2998,7 @@ c-----------------------------------------------------------------------
       PARAMETER (mxisp=16001)
       PARAMETER (mxnj=20)
       PARAMETER (mxfsp=16001)
-      PARAMETER (mxntp=9999)
+c     PARAMETER (mxntp=9999)
       PARAMETER (mxprm=6)
       PARAMETER (mxv=200)
       PARAMETER (mxfs=5)
@@ -3438,7 +3457,9 @@ ccc   INCLUDE 'arrsizes.h'
 c-----------------------------------------------------------------------
 c  Utility routine to summarize dimensioning of arrays
 c-----------------------------------------------------------------------
-      INTEGER mxdata,mxisp,mxfsp,mxnj,mxnp,mxntp,mxprm,mxv,mxfs,mxisot,
+c     INTEGER mxdata,mxisp,mxfsp,mxnj,mxnp,mxntp,mxprm,mxv,mxfs,mxisot,
+c    1        mxsets,mxfreq
+      INTEGER mxdata,mxisp,mxfsp,mxnj,mxnp,mxprm,mxv,mxfs,mxisot,
      1        mxsets,mxfreq
       REAL*8 CCM,PI
 c-----------------------------------------------------------------------
@@ -3448,7 +3469,7 @@ c           (also used for number of points in transition moment array)
 c  mxnj    - maxiumum value of j quantum number allowed
 c  mxfsp  - maximum number of points for final state potential array
 c  mxnp   - maximum number of parameters total
-c  mxntp  - maximum number of turning points to be read in
+c  mxntp  - maximum number of turning points to be read in (unused!)
 c  mxprm  - maximum number of parameters for final state pot'l or TMF
 c  mxv    - largest value for the v quantum number
 c  mxfs   - maximum number of final states allowed
@@ -3459,7 +3480,7 @@ c-----------------------------------------------------------------------
       PARAMETER (mxisp=16001)
       PARAMETER (mxnj=20)
       PARAMETER (mxfsp=16001)
-      PARAMETER (mxntp=9999)
+c     PARAMETER (mxntp=9999)
       PARAMETER (mxprm=6)
       PARAMETER (mxv=200)
       PARAMETER (mxfs=5)
