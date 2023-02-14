@@ -1,0 +1,186 @@
+nagfor -O2               -c -o bcont.o bcont.f
+NAG Fortran Compiler Release 7.1(Hanzomon) Build 7114
+Evaluation trial version of NAG Fortran Compiler Release 7.1(Hanzomon) Build 7114
+Non-standard(Obsolete): bcont.f, line 12: Byte count on numeric data type
+                        detected at *@8
+Non-standard(Obsolete): bcont.f, line 57: Byte count on numeric data type
+                        detected at *@8
+Non-standard(Obsolete): bcont.f, line 92: Byte count on numeric data type
+                        detected at *@8
+Questionable: bcont.f, line 1346: Variable CHARGE set but never referenced
+Warning: bcont.f, line 1346: Unused local variable N1
+Warning: bcont.f, line 1346: Unused local variable N2
+Warning: bcont.f, line 1346: Unused local variable STYPE
+Non-standard(Obsolete): bcont.f, line 1360: Byte count on numeric data type
+                        detected at *@8
+Non-standard(Obsolete): bcont.f, line 1400: Byte count on numeric data type
+                        detected at *@8
+Warning: bcont.f, line 1948: Unused local variable RDF
+Warning: bcont.f, line 1948: Unused local variable SUM
+Non-standard(Obsolete): bcont.f, line 1961: Byte count on numeric data type
+                        detected at *@8
+Non-standard(Obsolete): bcont.f, line 1993: Byte count on numeric data type
+                        detected at *@8
+Non-standard(Obsolete): bcont.f, line 2066: Byte count on numeric data type
+                        detected at *@8
+Non-standard(Obsolete): bcont.f, line 2099: Byte count on numeric data type
+                        detected at *@8
+Non-standard(Obsolete): bcont.f, line 2252: Byte count on numeric data type
+                        detected at *@8
+Non-standard(Obsolete): bcont.f, line 2284: Byte count on numeric data type
+                        detected at *@8
+Warning: bcont.f, line 2401: Unused local variable M
+Warning: bcont.f, line 2401: Unused local variable TMF
+Warning: bcont.f, line 2401: Unused local variable XTMF
+Non-standard(Obsolete): bcont.f, line 2423: Byte count on numeric data type
+                        detected at *@8
+Non-standard(Obsolete): bcont.f, line 2458: Byte count on numeric data type
+                        detected at *@8
+Non-standard(Obsolete): bcont.f, line 2650: Byte count on numeric data type
+                        detected at *@8
+Non-standard(Obsolete): bcont.f, line 2682: Byte count on numeric data type
+                        detected at *@8
+Warning: bcont.f, line 2926: Unused dummy variable TMFTYP
+Non-standard(Obsolete): bcont.f, line 2963: Byte count on numeric data type
+                        detected at *@8
+Non-standard(Obsolete): bcont.f, line 2996: Byte count on numeric data type
+                        detected at *@8
+Non-standard(Obsolete): bcont.f, line 3007: Byte count on numeric data type
+                        detected at *@8
+Warning: bcont.f, line 3428: Unused dummy variable FITIT
+Non-standard(Obsolete): bcont.f, line 3443: Byte count on numeric data type
+                        detected at *@8
+Non-standard(Obsolete): bcont.f, line 3475: Byte count on numeric data type
+                        detected at *@8
+Non-standard(Obsolete): bcont.f, line 3526: Byte count on numeric data type
+                        detected at *@8
+Warning: bcont.f, line 3583: Unused local variable I
+Warning: bcont.f, line 3583: Unused dummy variable KV
+Questionable: bcont.f, line 3583: Variable TWR set but never referenced
+Non-standard(Obsolete): bcont.f, line 3607: Byte count on numeric data type
+                        detected at *@8
+Non-standard(Obsolete): bcont.f, line 4343: Byte count on numeric data type
+                        detected at *@8
+Questionable: bcont.f, line 4604: Variable RMIN set but never referenced
+Non-standard(Obsolete): bcont.f, line 4630: Byte count on numeric data type
+                        detected at *@8
+Non-standard(Obsolete): bcont.f, line 5057: Byte count on numeric data type
+                        detected at *@8
+Non-standard(Obsolete): bcont.f, line 5150: Byte count on numeric data type
+                        detected at *@8
+Non-standard(Obsolete): bcont.f, line 5226: Byte count on numeric data type
+                        detected at *@8
+Non-standard(Obsolete): bcont.f, line 5347: Byte count on numeric data type
+                        detected at *@8
+Questionable: bcont.f, line 5797: Variable M set but never referenced
+Non-standard(Obsolete): bcont.f, line 5910: Byte count on numeric data type
+                        detected at *@8
+Non-standard(Obsolete): bcont.f, line 6605: Byte count on numeric data type
+                        detected at *@8
+Non-standard(Obsolete): bcont.f, line 6712: Byte count on numeric data type
+                        detected at *@8
+Questionable: bcont.f, line 7186: Variable H2 set but never referenced
+Non-standard(Obsolete): bcont.f, line 7205: Byte count on numeric data type
+                        detected at *@8
+Non-standard(Obsolete): bcont.f, line 7326: Byte count on numeric data type
+                        detected at *@8
+Questionable: bcont.f, line 7507: Variable RT1 set but never referenced
+Questionable: bcont.f, line 7507: Variable RT2 set but never referenced
+Non-standard(Obsolete): bcont.f, line 7521: Byte count on numeric data type
+                        detected at *@8
+Non-standard(Obsolete): bcont.f, line 7609: Byte count on numeric data type
+                        detected at *@8
+Non-standard(Obsolete): bcont.f, line 7611: Byte count on numeric data type
+                        detected at *@8
+Non-standard(Obsolete): bcont.f, line 7927: Byte count on numeric data type
+                        detected at *@8
+Non-standard(Obsolete): bcont.f, line 8279: Byte count on numeric data type
+                        detected at *@8
+Non-standard(Obsolete): bcont.f, line 8324: Byte count on numeric data type
+                        detected at *@8
+Non-standard(Obsolete): bcont.f, line 8390: Byte count on numeric data type
+                        detected at *@8
+Warning: bcont.f, line 8432: Symbol IPAR referenced but never set
+Warning: bcont.f, line 8432: Unused local variable XX
+Obsolescent: bcont.f, line 2: Fixed source form
+Warning: bcont.f, line 10: Unused PARAMETER MXNTP
+Warning: bcont.f, line 1358: Unused PARAMETER MXDATA
+Warning: bcont.f, line 1358: Unused PARAMETER MXNP
+Warning: bcont.f, line 1358: Unused PARAMETER MXNTP
+Warning: bcont.f, line 1360: Unused PARAMETER CCM
+Warning: bcont.f, line 1360: Unused PARAMETER PI
+Warning: bcont.f, line 1959: Unused PARAMETER MXDATA
+Warning: bcont.f, line 1959: Unused PARAMETER MXISP
+Warning: bcont.f, line 1959: Unused PARAMETER MXFSP
+Warning: bcont.f, line 1959: Unused PARAMETER MXNJ
+Warning: bcont.f, line 1959: Unused PARAMETER MXNP
+Warning: bcont.f, line 1959: Unused PARAMETER MXNTP
+Warning: bcont.f, line 1959: Unused PARAMETER MXV
+Warning: bcont.f, line 1959: Unused PARAMETER MXISOT
+Warning: bcont.f, line 1961: Unused PARAMETER CCM
+Warning: bcont.f, line 1961: Unused PARAMETER PI
+Warning: bcont.f, line 2064: Unused PARAMETER MXDATA
+Warning: bcont.f, line 2064: Unused PARAMETER MXISP
+Warning: bcont.f, line 2064: Unused PARAMETER MXNJ
+Warning: bcont.f, line 2064: Unused PARAMETER MXNP
+Warning: bcont.f, line 2064: Unused PARAMETER MXNTP
+Warning: bcont.f, line 2064: Unused PARAMETER MXV
+Warning: bcont.f, line 2064: Unused PARAMETER MXISOT
+Warning: bcont.f, line 2066: Unused PARAMETER CCM
+Warning: bcont.f, line 2066: Unused PARAMETER PI
+Warning: bcont.f, line 2250: Unused PARAMETER MXDATA
+Warning: bcont.f, line 2250: Unused PARAMETER MXNJ
+Warning: bcont.f, line 2250: Unused PARAMETER MXNP
+Warning: bcont.f, line 2250: Unused PARAMETER MXV
+Warning: bcont.f, line 2250: Unused PARAMETER MXISOT
+Warning: bcont.f, line 2252: Unused PARAMETER CCM
+Warning: bcont.f, line 2252: Unused PARAMETER PI
+Warning: bcont.f, line 2421: Unused PARAMETER MXISP
+Warning: bcont.f, line 2421: Unused PARAMETER MXFSP
+Warning: bcont.f, line 2421: Unused PARAMETER MXNJ
+Warning: bcont.f, line 2421: Unused PARAMETER MXNTP
+Warning: bcont.f, line 2421: Unused PARAMETER MXV
+Warning: bcont.f, line 2421: Unused PARAMETER MXISOT
+Warning: bcont.f, line 2423: Unused PARAMETER CCM
+Warning: bcont.f, line 2423: Unused PARAMETER PI
+Warning: bcont.f, line 2648: Unused PARAMETER MXDATA
+Warning: bcont.f, line 2648: Unused PARAMETER MXNJ
+Warning: bcont.f, line 2648: Unused PARAMETER MXNP
+Warning: bcont.f, line 2648: Unused PARAMETER MXNTP
+Warning: bcont.f, line 2648: Unused PARAMETER MXV
+Warning: bcont.f, line 2648: Unused PARAMETER MXISOT
+Warning: bcont.f, line 2650: Unused PARAMETER CCM
+Warning: bcont.f, line 2650: Unused PARAMETER PI
+Warning: bcont.f, line 2961: Unused PARAMETER MXDATA
+Warning: bcont.f, line 2961: Unused PARAMETER MXNJ
+Warning: bcont.f, line 2961: Unused PARAMETER MXNP
+Warning: bcont.f, line 2961: Unused PARAMETER MXNTP
+Warning: bcont.f, line 2961: Unused PARAMETER MXV
+Warning: bcont.f, line 2961: Unused PARAMETER MXISOT
+Warning: bcont.f, line 2963: Unused PARAMETER CCM
+Warning: bcont.f, line 2963: Unused PARAMETER PI
+Warning: bcont.f, line 3441: Unused PARAMETER MXDATA
+Warning: bcont.f, line 3441: Unused PARAMETER MXISP
+Warning: bcont.f, line 3441: Unused PARAMETER MXFSP
+Warning: bcont.f, line 3441: Unused PARAMETER MXNJ
+Warning: bcont.f, line 3441: Unused PARAMETER MXNP
+Warning: bcont.f, line 3441: Unused PARAMETER MXNTP
+Warning: bcont.f, line 3441: Unused PARAMETER MXV
+Warning: bcont.f, line 3441: Unused PARAMETER MXISOT
+Warning: bcont.f, line 3443: Unused PARAMETER CCM
+Warning: bcont.f, line 3443: Unused PARAMETER PI
+Obsolescent: bcont.f, line 3529: Statement function statement
+Warning: bcont.f, line 4001: Low-precision data-value assigned to high-precision data-object
+Warning: bcont.f, line 4042: Low-precision data-value assigned to high-precision data-object
+Obsolescent: bcont.f, line 7525: DATA statement in executable section
+Obsolescent: bcont.f, line 8047: DO 24 ends neither with CONTINUE nor ENDDO
+Obsolescent: bcont.f, line 8056: DO 28 ends neither with CONTINUE nor ENDDO
+Obsolescent: bcont.f, line 8057: DO 30 ends neither with CONTINUE nor ENDDO
+Obsolescent: bcont.f, line 8057: 30 is a shared DO termination label
+Obsolescent: bcont.f, line 8063: DO 32 ends neither with CONTINUE nor ENDDO
+Obsolescent: bcont.f, line 8066: DO 34 ends neither with CONTINUE nor ENDDO
+Obsolescent: bcont.f, line 8090: DO 40 ends neither with CONTINUE nor ENDDO
+Error: bcont.f, line 8215: Argument X is REAL (should be DOUBLE PRECISION) in reference to the intrinsic DSQRT
+[NAG Fortran Compiler error termination, 1 error, 139 warnings]
+<builtin>: recipe for target 'bcont.o' failed
+make: *** [bcont.o] Error 2

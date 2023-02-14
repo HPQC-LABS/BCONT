@@ -1,0 +1,2 @@
+gfortran       -O2               -c -o bcont.o bcont.f
+gfortran       -O2              bcont.o -o bcont.x
